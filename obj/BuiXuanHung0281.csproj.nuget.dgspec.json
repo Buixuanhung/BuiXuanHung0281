@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\OneDrive - Hanoi University of Mining and Geology\\Desktop\\BuiXuanHungBTH\\BuiXuanHung0281\\BuiXuanHung0281.csproj": {}
+    "C:\\Users\\ADMIN\\OneDrive - Hanoi University of Mining and Geology\\Desktop\\BuiXuanHung0281\\BuiXuanHung0281.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\OneDrive - Hanoi University of Mining and Geology\\Desktop\\BuiXuanHungBTH\\BuiXuanHung0281\\BuiXuanHung0281.csproj": {
+    "C:\\Users\\ADMIN\\OneDrive - Hanoi University of Mining and Geology\\Desktop\\BuiXuanHung0281\\BuiXuanHung0281.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\OneDrive - Hanoi University of Mining and Geology\\Desktop\\BuiXuanHungBTH\\BuiXuanHung0281\\BuiXuanHung0281.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\OneDrive - Hanoi University of Mining and Geology\\Desktop\\BuiXuanHung0281\\BuiXuanHung0281.csproj",
         "projectName": "BuiXuanHung0281",
-        "projectPath": "C:\\Users\\ADMIN\\OneDrive - Hanoi University of Mining and Geology\\Desktop\\BuiXuanHungBTH\\BuiXuanHung0281\\BuiXuanHung0281.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\OneDrive - Hanoi University of Mining and Geology\\Desktop\\BuiXuanHung0281\\BuiXuanHung0281.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\OneDrive - Hanoi University of Mining and Geology\\Desktop\\BuiXuanHungBTH\\BuiXuanHung0281\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\OneDrive - Hanoi University of Mining and Geology\\Desktop\\BuiXuanHung0281\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,28 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,5 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddDbContext<LTQLDb>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("LTQLDb") ?? throw new InvalidOperationException("Connection string 'LTQLDb' not found.")));
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
